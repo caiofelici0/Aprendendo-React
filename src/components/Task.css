@@ -5,6 +5,21 @@
   border-radius: 10px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #333;
+}
+
+.task-title {
   cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.remove-task-button, .see-task-details-button {
+  border: none;
+  background-color: #333;
+  color: chartreuse;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 7px;
 }
